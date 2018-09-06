@@ -24,7 +24,6 @@ static async Task Main(string[] args)
     var host = new HostBuilder();
     await host.RunAsServiceAsync();
 }
-
 ```
 
 # NB.
