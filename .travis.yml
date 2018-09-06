@@ -5,4 +5,4 @@ services:
   - docker
 
 script:
-  - docker build -f Dockerfile .
+  - docker build -f Linux.Dockerfile .
