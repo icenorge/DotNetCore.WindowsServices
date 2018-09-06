@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>DotNetCore.WindowsServices</PackageId>    
+    <Authors>John Korsnes</Authors>
+    <Description>IHostBuilder extensions `host.RunAsServiceAsync` for .NET Core 2.0+ apps</Description>
+    <Copyright>ice</Copyright>
+    <PackageTags>netcore windowsservices hosting</PackageTags>    
+    <PackageProjectUrl>https://github.com/icenorge/DotNetCore.WindowsServices</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/icenorge/DotNetCore.WindowsServices/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/icenorge/DotNetCore.WindowsServices</RepositoryUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/icenorge/DotNetCore.WindowsServices/master/images/logo.250x250.png</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes></PackageReleaseNotes>  
   </PropertyGroup>
 
   <ItemGroup>
