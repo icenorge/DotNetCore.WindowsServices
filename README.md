@@ -10,22 +10,24 @@
 [![NuGet](https://img.shields.io/nuget/dt/DotNetCore.WindowsService.svg)](https://www.nuget.org/packages/DotNetCore.WindowsServices/)
 
 ## DotNetCore.WindowsServices
-The bare minimum for running a .NET Core 2 console app as a Windows Service
+The bare minimum for running a .NET Core 2 console app as a Windows Service. Currently, there's a NuGet for running ASP.NET Core apps as a Windows Service, but [there's only a sample on how to do non web .NET Core apps as Windows Services](https://github.com/aspnet/Hosting/issues/1529). This NuGet extracts the code from that sample so it's more easily available.
 
 ## Install
 ```
-$ dotnet add package DotNetCore.WindowsServices
+> dotnet add package DotNetCore.WindowsServices
 ```
 
 ## Usage
 ```
-var host = new HostBuilder();
-await host.RunAsServiceAsync();
+static async Task Main(string[] args)
+{
+    var host = new HostBuilder();
+    await host.RunAsServiceAsync();
+}
+
 ```
 
-Then publish it targeting a Windows Runtime
+# NB.
 
-```
-dotnet publish -r win10-x64
-```
+This will of course only work on Windows. Running it on another platform throws `PlatformNotSupportedException`s.
 
