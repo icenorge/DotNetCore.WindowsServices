@@ -22,6 +22,7 @@ The bare minimum for running a .NET Core 2 console app as a Windows Service. Cur
 static async Task Main(string[] args)
 {
     var host = new HostBuilder();
+    host.ConfigureServices(c => c.AddSingleton<IHostedService, BackgroundWorker>());
     await host.RunAsServiceAsync();
 }
 ```
