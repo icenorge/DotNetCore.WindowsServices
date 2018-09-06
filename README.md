@@ -2,8 +2,7 @@
 
 | Build server                | Platform     | Status                                                                                                                    |
 |-----------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------|
-| AppVeyor                    | Windows      | [![Build status](https://ci.appveyor.com/api/projects/status/1ax6w93byxor88l0/branch/master?svg=true)](https://ci.appveyor.com/project/icenorge/dotnetcore-windowsservices/branch/master)
-|
+| AppVeyor                    | Windows      | [![Build status](https://ci.appveyor.com/api/projects/status/1ax6w93byxor88l0/branch/master?svg=true)](https://ci.appveyor.com/project/icenorge/dotnetcore-windowsservices/branch/master)|
 | Travis                      | Linux        | [![Build Status](https://travis-ci.org/icenorge/DotNetCore.WindowsServices.svg?branch=master)](https://travis-ci.org/icenorge/DotNetCore.WindowsServices)|
 
 
@@ -30,4 +29,3 @@ Then publish it targeting a Windows Runtime
 dotnet publish -r win10-x64
 ```
 
-Plz build in AppVeyor
