@@ -1,3 +1,8 @@
+// Copyright (c) .NET Foundation. All rights reserved.
+// Licensed under the Apache License, Version 2.0. 
+// https://raw.githubusercontent.com/aspnet/Hosting/master/LICENSE.txt for license information.
+
+
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
