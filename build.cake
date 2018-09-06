@@ -1,9 +1,6 @@
-#addin nuget:?package=Cake.Git&version=0.19.0
-
 var target = Argument("target", "Pack");
 var project = "DotNetCore.WindowsServices";
-var version = GetBuildVersion("0.1");
-var branch = GitBranchCurrent(new DirectoryPath("./")).FriendlyName;
+var version = GetBuildVersion("0.2");
 var outputDir = $"./builds/{project}";
 
 Task("Pack")
@@ -35,8 +32,9 @@ private string GetBuildVersion(string productVersion)
 {
     var now = DateTime.Now.ToString("yyyyMMddHHmmss");
     var buildCounter = Argument("buildcounter", "0");
+    var shipit = Argument("shipit", "0") != "0";
 
-    if(branch == "master")
+    if(shipit)
     {
         return $"{productVersion}.{buildCounter}";
     } 
