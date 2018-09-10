@@ -7,7 +7,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 variables:
-  imageName: 'DotNetCore-WindowsServices-ci:$(build.buildId)'
+  imageName: 'dotnetcore.windowsservices-ci:$(build.buildId)'
 
 steps:
 - script: docker build -f Linux.Dockerfile -t $(imageName) .
