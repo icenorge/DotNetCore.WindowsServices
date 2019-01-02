@@ -8,7 +8,7 @@
     <Copyright>ice</Copyright>
     <PackageTags>netcore windowsservices hosting</PackageTags>    
     <PackageProjectUrl>https://github.com/icenorge/DotNetCore.WindowsServices</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/icenorge/DotNetCore.WindowsServices/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicense>https://github.com/icenorge/DotNetCore.WindowsServices/blob/master/LICENSE</PackageLicense>
     <RepositoryUrl>https://github.com/icenorge/DotNetCore.WindowsServices</RepositoryUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/icenorge/DotNetCore.WindowsServices/master/images/logo.250x250.png</PackageIconUrl>
     <RepositoryType>git</RepositoryType>
@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.1.0" />
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="4.5.0" />
   </ItemGroup>
 </Project>
