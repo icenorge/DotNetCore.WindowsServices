@@ -4,7 +4,6 @@
 |-----------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------|
 | AppVeyor                    | Windows      | [![Build status](https://ci.appveyor.com/api/projects/status/1ax6w93byxor88l0/branch/master?svg=true)](https://ci.appveyor.com/project/icenorge/dotnetcore-windowsservices/branch/master)|
 | Travis                      | Linux        | [![Build Status](https://travis-ci.org/icenorge/DotNetCore.WindowsServices.svg?branch=master)](https://travis-ci.org/icenorge/DotNetCore.WindowsServices)|
-| Azure DevOps| Linux |[![Build Status](https://dev.azure.com/icenorge/DotNetCore.WindowsServices/_apis/build/status/icenorge.DotNetCore.WindowsServices)](https://dev.azure.com/icenorge/DotNetCore.WindowsServices/_build/latest?definitionId=1)|
 
 
 [![NuGet](https://img.shields.io/nuget/v/DotNetCore.WindowsServices.svg)](https://www.nuget.org/packages/DotNetCore.WindowsServices/)

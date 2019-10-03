@@ -1,6 +1,6 @@
 var target = Argument("target", "Pack");
 var project = "DotNetCore.WindowsServices";
-var version = GetBuildVersion("0.2");
+var version = GetBuildVersion("0.3");
 var outputDir = $"./builds/{project}";
 
 Task("Pack")
