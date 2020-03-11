@@ -1,3 +1,8 @@
+# DEPRECATION NOTICE
+
+From .NET Core 3, Windows Services are supported by the framework. Use https://www.nuget.org/packages/Microsoft.Extensions.Hosting.WindowsServices .
+
+
 ## Build status
 
 | Build server                | Platform     | Status                                                                                                                    |
